@@ -9,6 +9,10 @@ import QuickSort.Quick;
 
 public class Menu {
 	
+	/*Esta eh a versão final utilizando os algoritmos Bubble, Quick e Insertion Sort.
+	Para utilizar outros algoritmos de ordenacao, basta criar novos packages e classes com esses algoritmos
+		e substituir os objetos instanciados (bem como as variaveis, deixando-as de acordo com suas funcoes*/
+	
 	@SuppressWarnings("static-access")
 	public static void main(String [] args){
 		DadosInternos dadosInternos = new DadosInternos();
