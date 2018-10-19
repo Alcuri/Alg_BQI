@@ -25,11 +25,6 @@ public class Menu {
 		
 		do{ 
 			
-			System.out.println("Escolha qual algoritmo deseja analisar:");
-			System.out.println("1 - BubbleSort");
-			System.out.println("2 - QuickSort");
-			System.out.println("3 - InsertionSort");
-			System.out.println("Digite 'Sair' para encerrar o programa!");
 			String escolha = leTeclado.nextLine();
 
 			switch(escolha){
